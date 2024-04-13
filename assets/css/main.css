@@ -1129,13 +1129,13 @@ section {
   }
 }
 
-.about h3 {
+/* .about h3 {
   color: var(--color-secondary);
   font-family: var(--font-secondary);
   font-weight: 300;
   font-size: 32px;
   margin-bottom: 20px;
-}
+} */
 
 @media (max-width: 768px) {
   .about h3 {
@@ -1216,7 +1216,7 @@ section {
 
 .cta .container {
   padding: 80px;
-  background: rgba(var(--color-secondary-rgb), 0.1);
+  background: rgb(204, 235, 250);
   border-radius: 15px;
 }
 
@@ -1227,6 +1227,12 @@ section {
 }
 
 .cta .content h3 {
+  color: var(--color-secondary);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sobre{
   color: var(--color-secondary);
   font-size: 48px;
   font-weight: 700;
@@ -1307,14 +1313,14 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/jonyou.PNG") center center;
   background-size: cover;
 }
 
 .onfocus .content {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center;
+  /* background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center; */
   background-size: cover;
-  color: rgba(var(--color-white-rgb), 0.8);
+  color: black;
   padding: 40px;
 }
 
@@ -1327,7 +1333,7 @@ section {
 .onfocus .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: var(--color-white);
+  color: black;
 }
 
 .onfocus .content ul {
@@ -1342,7 +1348,7 @@ section {
 .onfocus .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: red;
 }
 
 .onfocus .content p:last-child {
@@ -1383,7 +1389,7 @@ section {
 .onfocus .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(var(--color-primary-rgb), 0.4) 52%);
+  background: radial-gradient(var(--color-red) 50%, rgba(var(--color-red-rgb), 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -1404,7 +1410,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(var(--color-primary-rgb), 0.7);
+  border: 5px solid rgba(var(--color-red), 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1443,7 +1449,7 @@ section {
 }
 
 .onfocus .play-btn:hover:after {
-  border-left: 15px solid var(--color-primary);
+  border-left: 15px solid var(--color-red);
   transform: scale(20);
 }
 
