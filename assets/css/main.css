@@ -81,6 +81,7 @@ section {
   overflow: hidden;
 }
 
+
 .section-header {
   text-align: center;
   padding-bottom: 40px;
@@ -1655,6 +1656,8 @@ section {
 .testimonials .section-header {
   margin-bottom: 40px;
 }
+
+
 
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
